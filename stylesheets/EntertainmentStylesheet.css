@@ -7,10 +7,25 @@ table {
     border-bottom: 1px solid #999999;
 }
 th,td {
-    text-align: left;
+    text-align: center;
     vertical-align: top;
     padding: 0.6em;
 }
 tfoot {
-  border-top: 1px solid #999999;
+    border-top: 1px solid #999999;
+}
+tbody {
+    border: 1px solid #999999;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: blue;
+    font-size: 50px;
+    color: white;
+    font-weight: lighter;
 }
