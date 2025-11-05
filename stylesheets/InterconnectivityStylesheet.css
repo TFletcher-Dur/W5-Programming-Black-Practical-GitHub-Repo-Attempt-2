@@ -22,21 +22,32 @@
         color 1s ease;
 }
 
-.reference:hover, .reference:target {
+.reference:hover {
     background-color: lightgrey;
     transition: 
         background-color 1s ease,
         color 1s ease;
 }
 
+.reference:target {
+    background-color: #0DCAF0;
+    transition: 
+        background-color 1s ease,
+        color 1s ease;
+}
+
 .reference:active {
-    background-color: blue;
+    background-color: #0D6EFD;
     transition: 0s;
 }
 
-.reference:active a {
+.reference:active a, .reference:target a {
     color: white;
     transition: 0s;
+}
+
+.reference:target a {
+    color: 1s ease;
 }
 
 .reference:active:has(a.disabled) {
