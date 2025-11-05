@@ -14,3 +14,32 @@
     width: fit-content;
     justify-self: center;
 }
+
+.reference {
+    border-radius: 5px;
+    transition: 
+        background-color 1s ease, 
+        color 1s ease;
+}
+
+.reference:hover, .reference:target {
+    background-color: lightgrey;
+    transition: 
+        background-color 1s ease,
+        color 1s ease;
+}
+
+.reference:active {
+    background-color: blue;
+    transition: 0s;
+}
+
+.reference:active a {
+    color: white;
+    transition: 0s;
+}
+
+.reference:active:has(a.disabled) {
+    background-color: red;
+}
+
