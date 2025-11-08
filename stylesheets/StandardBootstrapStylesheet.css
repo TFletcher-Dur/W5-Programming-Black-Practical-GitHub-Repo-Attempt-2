@@ -1,0 +1,18 @@
+/*The lower a stylesheet's link in a HTML document, the higher its priority 
+relative to other stylesheets for said document..*/
+
+.topBar {
+    box-sizing: border-box; /*Important for sizing.*/
+
+    background-image: url("../MainBackgroundImage.jpg");
+}
+
+.topBarText {
+    box-sizing: border-box;
+    color: inherit;
+    background: rgba(0,0,0,0.25);
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: fit-content;
+    justify-self: center;
+}
