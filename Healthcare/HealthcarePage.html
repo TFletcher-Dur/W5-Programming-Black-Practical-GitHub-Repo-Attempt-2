@@ -6,6 +6,12 @@
     <title>Healthcare</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
+    <link
+    href="../stylesheets/StandardBootstrapStylesheet.css"
+    rel="stylesheet"> 
+    <!--The standard stylesheet is placed lower in the head to prevent it from being accidentally
+    overridden by rules in the main stylesheet for the page by giving it higher priority than
+    said stylesheet.-->
     <style>
         .fakeimg {
             height: 200px;
@@ -14,9 +20,9 @@
     </style>
 </head>
 <body>
-    <div class="p-5 bg-primary text-white text-center">
-        <h1>Healthcare</h1>
-        <p>
+    <div class="topBar p-5 bg-primary text-white text-center">
+        <h1 class="topBarText">Healthcare</h1>
+        <p class="topBarText">
             Technology has improved many areas of healthcare, in both a physical sense but also in software and processing.
         </p> 
     </div>
@@ -38,6 +44,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../Interconnectivity/Interconnectivity.html">Interconnectivity</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Communication/Communication.html">Communication</a>
             </li>
             </ul>
         </div>
