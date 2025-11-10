@@ -15,4 +15,6 @@ relative to other stylesheets for said document..*/
     border-radius: 5px;
     width: fit-content;
     justify-self: center;
+    margin-left:auto;
+    margin-right:auto;
 }
